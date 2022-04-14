@@ -9,7 +9,7 @@ iptables -t nat -A REDSOCKS -d 10.0.0.0/8 -j RETURN
 iptables -t nat -A REDSOCKS -d 127.0.0.0/8 -j RETURN
 iptables -t nat -A REDSOCKS -d 169.254.0.0/16 -j RETURN
 #iptables -t nat -A REDSOCKS -d 172.16.0.0/12 -jj RETURN
-#iptables -t nat -A REDSOCKS -d 192.168.50.0/24 -j RETURN
+#iptables -t nat -A REDSOCKS -d 192.168.0.0/16 -j RETURN
 iptables -t nat -A REDSOCKS -d 224.0.0.0/4 -j RETURN
 iptables -t nat -A REDSOCKS -d 240.0.0.0/4 -j RETURN
 
