@@ -1,4 +1,4 @@
-# proxifier-linux
+# proxifier-ubuntu
 
 proxyfier alternative for linux using redsocks. Proxify all linux applications through SOCKS4/5, HTTP proxy
 
